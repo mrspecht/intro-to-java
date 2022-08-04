@@ -9,14 +9,14 @@
   Formula: Math.PI * (Math.pow(radius, 2));
 
   Example
-  Enter radius in cm: 2.39
-  Area of the circumference is 17.95 cm
+    Enter radius in cm: 2.39
+    Area of the circumference is 17.95 cm
 */
 
 import java.util.*;
 import java.lang.Math.*;
 
-public class Area {
+public class C03 {
   private double radius;
 
   public void setRadius(double radius) {
@@ -39,7 +39,7 @@ public class Area {
 		Scanner scan = new Scanner(System.in);
 		r = scan.nextDouble();
 
-		Area area = new Area();
+		C03 area = new C03();
     area.setRadius(r);
 
 		System.out.printf("Area of the circumference is %.2f cm\n", area.getArea());

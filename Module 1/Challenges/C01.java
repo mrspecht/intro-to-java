@@ -11,7 +11,7 @@
   The total amount paid (for the stock plus the commission)
 */
 
-public class Stocks {
+public class C01 {
   public static void main(String[] args) {
     int shares = 300;
     double stockPrice = 21.75;

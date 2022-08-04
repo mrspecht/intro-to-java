@@ -13,12 +13,13 @@ public class References {
     String str2 = new String("Two");
     String str3 = null;
 
-    System.out.println(str1);
-    System.out.println(str3);
+    System.out.println(str1);  // One
+    System.out.println(str2);  // Two
+    System.out.println(str3);  // null
 
-    Reference ref1 = new Reference();
-    Reference ref2 = new Reference();
+    References ref1 = new References();
+    References ref2 = new References();
 
-    System.out.println(ref1);
+    System.out.println(ref1);  // References@27d415d9
   }
 }

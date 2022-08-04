@@ -19,6 +19,7 @@ public class Variables {
     System.out.println(b);
     System.out.println(c);
     System.out.println(d);
+    // System.out.println(e);  Error: variable e might not have been initialized
 
     String s1 = "Hello", s2 = "world";
     System.out.println(s1 + " " + s2);

@@ -14,6 +14,8 @@ public class Scope {
       int y = 10;
     }
 
+    System.out.println(job);
+
     // Error: cannot find symbol
     // System.out.println(y);
   }

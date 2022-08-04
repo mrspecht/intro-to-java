@@ -15,7 +15,7 @@ public class Methods_01 {
   }
 
   public static void main(String[] args) {
-    Methods m = new Methods();
+    Methods_01 m = new Methods_01();
     m.welcome();
     System.out.println("John Doe");
   }

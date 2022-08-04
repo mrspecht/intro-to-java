@@ -13,12 +13,12 @@ public class Promotion {
     int d = 0;
 
     d = a + b;
-    System.out.println(d);
+    System.out.println(d);  // 10
 
     // Error: incompatible types (possible lossy conversion from double to int)
     // d = a + c;
 
     // Numeric promotion
-    System.out.println(a == c);
+    System.out.println(a == c);  // true
   }
 }

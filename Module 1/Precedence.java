@@ -14,9 +14,11 @@
 public class Precedence {
   public static void main(String[] args) {
     int x = 9;
-    int y = 8 + 7 - --x;    // x == 8
-    int z = 3 y - x / 2;  // y == 7
 
-    System.out.println(z);  // z == 17
+    int y = 9 + 7 - --x;
+    System.out.println(y);  // y == 8
+    
+    int z = 3 * y - x / 2;
+    System.out.println(z);  // z == 20
   }
 }

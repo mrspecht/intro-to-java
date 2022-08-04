@@ -13,7 +13,7 @@
     Fahrenheit to Celsius: (temp - 32) * 5 / 9
 */
 
-public class Temperature {
+public class C02 {
   public static void main(String[] args) {
     double celsius = 23.0;
     double fahrenheit = 73.4;

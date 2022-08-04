@@ -3,7 +3,7 @@
 public class Methods_06 {
   String name;
 
-  public Methods setName(String name) {
+  public Methods_06 setName(String name) {
     this.name = name;
     // Returns the instance reference
     return this;
@@ -18,6 +18,6 @@ public class Methods_06 {
   }
 
   public static void main(String[] args) {
-    new Methods().setName("Andre Specht").print();
+    new Methods_06().setName("Andre Specht").print();
   }
 }

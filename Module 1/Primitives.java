@@ -9,7 +9,7 @@
 
 public class Primitives {
   public static void main(String[] args) {
-    boolean a = true;      // 8 bit
+    boolean a = true;      // 8 bits
     char b = 'b';          // 16 bits
     byte c = 3;            // 8 bits
     short d = 4;           // 16 bits

@@ -7,7 +7,7 @@
   display the results
 */
 
-public class Converter {
+public class C02 {
   public double toFahrenheit(double c) {
     double result = c * 1.8 + 32;
     return result;
@@ -22,8 +22,8 @@ public class Converter {
     double c = 23.0;
     double f = 73.40;
 
-    double cToF = new Class().toFahrenheit(c);
-    double fToC = new Class().toCelsius(f);
+    double cToF = new C02().toFahrenheit(c);
+    double fToC = new C02().toCelsius(f);
 
     System.out.println(String.format("%.2f\u00B0C is %.2f\u00B0F", c, cToF));
     System.out.println(String.format("%.2f\u00B0F is %.2f\u00B0C", f, fToC));

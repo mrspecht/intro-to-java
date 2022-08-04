@@ -9,7 +9,7 @@
     500 seconds contains 8 minutes and 20 seconds
 */
 
-public class DisplayTime {
+public class C03 {
   public static void main(String[] args) {
     int sec = 500;
 

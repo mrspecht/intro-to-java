@@ -21,7 +21,7 @@ public class Methods_02 {
 
   public static void main(String[] args) {
     int celsius = 16;
-    Methods m = new Methods();
+    Methods_02 m = new Methods_02();
     m.print(celsius, m.convert(celsius));
   }
 }

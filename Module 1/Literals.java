@@ -5,9 +5,8 @@
   is a value that is written into the code of a program
 */
 
-public class Variable {
+public class Literals {
   public static void main(String[] args) {
-    int num = 7;
     String name = "John";
 
     System.out.println("Hi");

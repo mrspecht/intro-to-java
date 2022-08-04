@@ -9,20 +9,19 @@
 public class Increment {
   public static void main(String[] args) {
     int x = 0;
-    int y = 0;
 
     System.out.println(x++);  // 0
     System.out.println(x++);  // 1
     System.out.println(x);    // 2
 
-    System.out.println(++x);  // 1
-    System.out.println(++x);  // 2
+    System.out.println(++x);  // 3
+    System.out.println(++x);  // 4
 
     int z = 1;
     int w = 5 + z++;
     z++;
 
     System.out.println(w);   // 6
-    System.out.println(z);   // 5
+    System.out.println(z);   // 3
   }
 }

@@ -9,7 +9,7 @@
     4.7 prints 0.7
 */
 
-public class Conversions {
+public class C04 {
   public static void main(String[] args) {
     double num = 4.7;
     double res = num - (int) num;
