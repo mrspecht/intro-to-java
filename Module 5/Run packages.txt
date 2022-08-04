@@ -1,0 +1,6 @@
+Running Java packages on terminal
+
+
+  javac package/Class.java package_main/Class.java
+
+  java package_main.Class

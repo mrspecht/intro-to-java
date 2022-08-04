@@ -1,0 +1,7 @@
+Installing Java via homebrew
+
+
+  1. Search the versions available     brew search java
+  2. Install Java (latest version)     brew install openjdk
+  3. Make Java global                  sudo ln -sfn /opt/homebrew/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
+  4. Check the version installed       java -version

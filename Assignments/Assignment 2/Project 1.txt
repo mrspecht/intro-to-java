@@ -1,0 +1,36 @@
+Course: Introduction to Java programming
+Instructor: Andre Specht
+Assignment 1
+
+
+Project 1: Discount
+
+A department store owner decided to implement a discount system for his
+employees. The system, which will be developed in Java, will work as
+follows:
+
+  10% discount for supervisors
+  15% discount for sales representatives
+  20% discount for other employees
+  Managers cannot participate in the discount system
+
+
+System requirements
+
+  1. Print a welcome message
+  2. Ask for the employee's job title
+  3. Ask for the price of the item the employee wants to buy. System will skip
+     this step if the employee is a manager
+  4. Print either the new price or a message to managers ("Managers cannot
+     participate in the discount system")
+
+
+Rubrics
+
+  1. Code in a single Java file
+  2. A method named checkDiscount
+  3. A switch-case statement in checkDiscount()
+  4. Program does not ask for the item when the employee is a manager
+  5. Formatted outputs (ex. $30.45 instead of $30.444444447)
+  6. Program works and delivers the expected results
+  7. Code style (naming conventions, indentation, meaningful comments etc)

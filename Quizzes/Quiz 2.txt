@@ -1,0 +1,93 @@
+/*
+ * Intro to Java programming
+ * Quiz 2
+ * Andre Specht
+ */
+
+
+Q01. x
+     a)
+     b)
+     c)
+     d)
+
+Q02. x
+     a)
+     b)
+     c)
+     d)
+
+
+Q03. x
+     a)
+     b)
+     c)
+     d)
+
+
+Q04. x
+     a)
+     b)
+     c)
+     d)
+
+
+Q05. x
+     a)
+     b)
+     c)
+     d)
+
+
+Q06. x
+     a)
+     b)
+     c)
+     d)
+
+
+Q07. x
+     a)
+     b)
+     c)
+     d)
+
+
+Q08. x
+     a)
+     b)
+     c)
+     d)
+
+
+Q09. x
+      a)
+      b)
+      c)
+      d)
+
+
+Q10. x
+     a)
+     b)
+     c)
+     d)
+
+
+Q11. x
+     a)
+     b)
+     c)
+     d)
+
+
+Q12. x
+
+
+Q13. x
+
+
+Q14. x
+
+
+ Q15. x

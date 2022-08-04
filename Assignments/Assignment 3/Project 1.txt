@@ -1,0 +1,60 @@
+Course: Introduction to Java programming
+Instructor: Andre Specht
+Assignment 2
+
+
+Project 1: Tossing coins
+
+Write a program that toss a coin. The main class (Coin) should contain the
+following:
+
+  1. A String named sideUp. The sideUp field will hold either 'heads' or
+     'tails' indicating the side of the coin that is facing up
+  2. A no-arg constructor that randomly determines the side of the coin that
+     is facing up ('heads' or 'tails') and initializes the sideUp field
+     accordingly
+  3. A void method named toss() that simulates the tossing of the coin. When
+     the toss method is called, it randomly determines the side of the coin
+     that is facing up ('heads' or 'tails') and sets the sideUp field
+     accordingly.
+  4. A method named getSideUp that returns the value of the sideUp field
+
+
+
+System requirements
+
+  The program should create an instance of the class and display the side that
+  is initially facing up. Then, use a loop to toss the coin 10 times. Each time
+  the coin is tossed, display the side that is facing up. The program should
+  keep count of the number of times heads is facing up and the number of times
+  tails is facing up, and display those values after the loop finishes
+
+
+Program output (example)
+
+  Coin is current on tails
+  Tossing coin...
+
+  #1      Heads
+  #2      Tails
+  #3      Heads
+  #4      Tails
+  #5      Heads
+  #6      Heads
+  #7      Heads
+  #8      Heads
+  #9      Heads
+  #10     Heads
+
+  Heads wins: 8
+  Tails wins: 2
+
+
+Rubrics
+
+  1. Code in a single Java file
+  2. All required class members are implemented
+  3. Both constructor and toss() method generate random results (heads/tails)
+  4. Formatted output
+  5. The program works and delivers the expected results
+  6. Code style (naming conventions, indentation, meaningful comments etc)

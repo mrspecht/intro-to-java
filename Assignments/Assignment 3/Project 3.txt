@@ -1,0 +1,29 @@
+Course: Introduction to Java programming
+Instructor: Andre Specht
+Assignment 2
+
+
+Project 3: Anagrams
+
+Write a program that lists all anagrams found in a txt file (words.txt)
+
+
+System requirements
+
+  1. Ask the user to enter a valid (English) word
+  2. Convert the word into a key
+  3. Read all words listed in the txt file
+  4. Convert each word into a key that will be compared to the one entered by
+     the user
+  5. Store anagrams found in an ArrayList
+  6. Print the results
+
+
+Rubrics
+
+  1. Code in a single Java file
+  2. Method to generate a keyword
+  3. Program opens and reads the txt file
+  4. Program works and delivers the expected results
+  5. Word entered by the user is not included in the output
+  6. Code style (naming conventions, indentation, meaningful comments etc)

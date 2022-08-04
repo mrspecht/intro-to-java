@@ -1,0 +1,59 @@
+Course: Introduction to Java programming
+Instructor: Andre Specht
+Assignment 1
+
+
+Project 3: Converter
+
+Engineering students need a computer program to convert meters into different
+units of measurement. The program should ask the user to enter a
+distance in meters and then present the following menu of selections:
+
+  1. Convert to kilometers
+  2. Convert to inches
+  3. Convert to feet
+  4. Quit the program
+
+
+System requirements
+
+  1. The program will convert the distance to kilometers, inches, or feet,
+     depending on the user’s selection
+  2. The program should continue to display the menu until the user enters '4'
+     to quit the program
+  3. The program should not accept negative numbers for the distance in meters
+  4. If the user selects an invalid choice from the menu, the program should
+     display an error message
+
+
+Required methods
+
+  1. A void method named showKilometers, which accepts the number of meters as
+     an argument. The method should display the argument converted to
+     kilometers. Convert the meters to kilometers using the following formula:
+
+     kilometers = meters * 0.001
+
+  2. A void method named showInches, which accepts the number of meters as an
+     argument. The method should display the argument converted to inches.
+     Convert the meters to inches using the following formula:
+
+     inches = meters * 39.37
+
+  3. A void method named showFeet, which accepts the number of meters as an
+     argument. The method should display the argument converted to feet.
+     Convert the meters to feet using the following formula:
+
+     feet = meters * 3.281
+
+  4. A void method named menu that displays the menu of selections. This method
+     should not accept any arguments
+
+
+Rubrics
+
+  1. Code in a single Java file
+  2. All required methods are implemented
+  3. Formatted outputs (ex. 12.45 instead of 11.444444447)
+  4. Program works and delivers the expected results
+  5. Code style (naming conventions, indentation, meaningful comments etc)
