@@ -1,9 +1,9 @@
 // Constructors
 
 /*
- *  There are two key points to note about the constructor: the name of the
- *  constructor matches the name of the class, and there’s no return type
- */
+  There are two key points to note about the constructor: the name of the
+  constructor matches the name of the class, and there’s no return type
+*/
 
 public class Constructors {
   String name;

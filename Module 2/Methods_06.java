@@ -1,4 +1,4 @@
-// Chaining my methods
+// Chaining my own methods
 
 public class Methods_06 {
   String name;
@@ -9,11 +9,12 @@ public class Methods_06 {
     return this;
   }
 
-  public String getName() {
+  // Package-private access modifier: visible only within the package
+  String getName() {
     return this.name;
   }
 
-  public void print() {
+  void print() {
     System.out.println(this.getName());
   }
 

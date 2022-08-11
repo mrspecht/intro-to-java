@@ -1,8 +1,8 @@
 // The switch statement
 
 /*
- *  The 'break' statement terminates the 'switch' statement and return flow
- *  control to the enclosing statement
+  The 'break' statement terminates the 'switch' statement and return flow
+  control to the enclosing statement
  */
 
 public class Switch_02 {

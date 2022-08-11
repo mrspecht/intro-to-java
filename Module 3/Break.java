@@ -1,11 +1,11 @@
 // Flow control (break)
 
 /*
- *  'break' is a statement that causes the control flow to exit the loop
- *  structure and returns control to the enclosing statement
- *
- *  Test it without the curly braces (if)
- */
+  'break' is a statement that causes the control flow to exit the loop
+  structure and returns control to the enclosing statement
+
+  Test it without the curly braces (if)
+*/
 
 public class Break {
   public static void main(String[] args) {

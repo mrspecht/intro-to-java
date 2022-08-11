@@ -1,12 +1,12 @@
 // Objects
 
 /*
- *  An object, in object-oriented programming (OOP), is an abstract data type
- *  created by a developer. It can include multiple properties and methods and
- *  may even contain other objects
- *
- *  An object is an instance of a class
- */
+  An object, in object-oriented programming (OOP), is an abstract data type
+  created by a developer. It can include multiple properties and methods and
+  may even contain other objects
+
+  An object is an instance of a class
+*/
 
 class Class {
   String name;

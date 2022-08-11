@@ -1,9 +1,9 @@
 // The Array class
 
 /*
- *  Arrays are homogeneous data structures that are implemented as objects.
- *  They are mutable, have fixed size and can be multidimensional
- */
+  Arrays are homogeneous data structures that are implemented as objects.
+  They are mutable, have fixed size and can be multidimensional
+*/
 
 import java.util.*;
 

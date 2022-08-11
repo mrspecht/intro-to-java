@@ -1,13 +1,13 @@
 // Flow control (continue)
 
 /*
- *  'continue' is a statement that causes the flow to stop the execution of the
- *  the current iteration and go on to the next, preventing any other
- *  instruction from being executed
- *
- *  'if' with the curly braces: println() becomes an unreachable statement
- *  The code does not compile
- */
+  'continue' is a statement that causes the flow to stop the execution of the
+  the current iteration and go on to the next, preventing any other
+  instruction from being executed
+
+  'if' with the curly braces: println() becomes an unreachable statement
+  The code does not compile
+*/
 
 public class Continue {
   public static void main(String[] args) {

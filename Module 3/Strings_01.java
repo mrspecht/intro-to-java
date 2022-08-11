@@ -1,10 +1,10 @@
 // The String class
 
 /*
- *  The String class is 'final', immutable and doesn’t need to be instantiated
- *  with the 'new' operator. An immutable class has no setter methods, and the
- *  getters cannot be overridden
- */
+  The String class is 'final', immutable and doesn’t need to be instantiated
+  with the 'new' operator. An immutable class has no setter methods, and the
+  getters cannot be overridden
+*/
 
 public class Strings_01 {
   public static void main(String[] args) {

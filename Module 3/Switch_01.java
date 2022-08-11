@@ -1,10 +1,10 @@
 // The switch statement
 
 /*
- *  The 'switch' statement is a complex decision-making structure in which a
- *  single value is evaluated and flow is redirected to the first matching
- *  branch, known as a case statement
- */
+  The 'switch' statement is a complex decision-making structure in which a
+  single value is evaluated and flow is redirected to the first matching
+  branch, known as a case statement
+*/
 
 
 public class Switch_01 {

@@ -1,10 +1,10 @@
 // Encapsulation
 
 /*
- *  In Java, encapsulation is commonly implemented with private instance
- *  members that have public methods to retrieve or modify the data, commonly
- *  referred to as getters and setters, respectively
- */
+  In Java, encapsulation is commonly implemented with private instance
+  members that have public methods to retrieve or modify the data, commonly
+  referred to as getters and setters, respectively
+*/
 
 public class Encapsulation {
   private String name;

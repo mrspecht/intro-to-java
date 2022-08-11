@@ -1,9 +1,9 @@
 // The for statement
 
 /*
- *  for (initialization; booleanExpression; updateStatement) {
- *    statement;
- */
+  for (initialization; booleanExpression; updateStatement) {
+    statement;
+*/
 
 public class For_01 {
   public static void main(String[] args) {

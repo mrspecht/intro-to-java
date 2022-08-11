@@ -1,9 +1,9 @@
 // Reading inputs (the Scanner class)
 
 /*
- *  The Scanner class has methods for reading strings, bytes, integers, long
- *  integers, short integers, floats, and doubles
- */
+  The Scanner class has methods for reading strings, bytes, integers, long
+  integers, short integers, floats, and doubles
+*/
 
 import java.util.*;
 

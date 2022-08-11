@@ -1,9 +1,9 @@
 // Garbage collection (object's lifecycle)
 
 /*
- *  Garbage collection refers to the process of automatically freeing memory on
- *  the heap by deleting objects that are no longer reachable in your program
- */
+  Garbage collection refers to the process of automatically freeing memory on
+  the heap by deleting objects that are no longer reachable in your program
+*/
 
 public class GC {
   public static void main(String[] args) {

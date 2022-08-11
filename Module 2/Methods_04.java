@@ -1,10 +1,10 @@
 // Method overloading
 
 /*
- * Method overloading occurs when there are different method signatures with
- * the same name but different type parameters. Overloaded methods may have
- * different access modifiers and return types
- */
+  Method overloading occurs when there are different method signatures with
+  the same name but different type parameters. Overloaded methods may have
+  different access modifiers and return types
+*/
 
 public class Methods_04 {
   public static void numbers(int a) {

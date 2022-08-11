@@ -1,10 +1,10 @@
 // Creating methods
 
 /*
- *  An argument is a value passed to a method when the method is called. A
- *  parameter is a variable used to define a particular value during af method
- *  definition
- */
+  An argument is a value passed to a method when the method is called. A
+  parameter is a variable used to define a particular value during af method
+  definition
+*/
 
 public class Methods_02 {
   double result;

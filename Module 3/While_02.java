@@ -1,8 +1,6 @@
 // The do-while statement
 
-/*
- * The 'do-while' statement executes instructions at least once
- */
+// The 'do-while' statement executes instructions at least once
 
 public class While_02 {
   public static void main(String[] args) {

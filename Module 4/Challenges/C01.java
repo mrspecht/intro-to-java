@@ -11,7 +11,7 @@
 
 import java.util.*;
 
-public class Capitalizer {
+class Capitalizer {
   public String capitalize(String str) {
     int period = str.indexOf(".");
     char[] chars = str.toCharArray();
