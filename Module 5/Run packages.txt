@@ -2,5 +2,7 @@ Running Java packages on terminal
 
 
   javac package/Class.java package_main/Class.java
+  javac employee/Employee.java instructor/Instructor.java
 
   java package_main.Class
+  java instructor.Instructor
