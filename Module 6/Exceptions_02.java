@@ -7,7 +7,7 @@ class Class {
   public static void main(String[] args) {                                      // The most commom checked exceptions are ParseException, IOException,
     try {                                                                       // FileNotFoundException, NotSerializableException and SQLException
       SimpleDateFormat sdf = new SimpleDateFormat("MM/dd");
-      Date date = sdf.parse("01-10");                                           // The most specific exception have to be caught first, otherwise a
+      Date date = sdf.parse("01-10");                                   // The most specific exception have to be caught first, otherwise a
       System.out.println(date);                                                 // compile-time error is generated
     } catch (ParseException e) {
       System.out.println(e);                                                    // java.text.ParseException: Unparseable date: '01-10'

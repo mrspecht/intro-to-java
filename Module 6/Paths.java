@@ -14,7 +14,7 @@ class Class {
     System.out.println(path.getFileName());                                     // java.txt
     System.out.println(path.getNameCount());                                    // 2
 
-    System.out.println(path.getName(0));                                        // source
-    System.out.println(path.getName(1));                                        // java.txt
+    System.out.println(path.getName(0));                                 // source
+    System.out.println(path.getName(1));                                 // java.txt
   }
 }

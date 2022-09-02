@@ -12,7 +12,7 @@ public class Emails {
   public static boolean match(String email) {
     pattern = Pattern.compile(EMAIL_PATTERN, Pattern.CASE_INSENSITIVE);
     matcher = pattern.matcher(email);
-    return matcher.matches();
+    return matcher.matches();  // true | false
   }
 
   public static void main(String[] args) {
@@ -22,10 +22,9 @@ public class Emails {
     final Charset CHARSET = Charset.forName("UTF-8");
 
     String line = null;
-    String last = "\n---------------------";
-
+    
     try (BufferedReader reader = Files.newBufferedReader(EMAILS, CHARSET);
-    BufferedWriter writer = Files.newBufferedWriter(VALID, CHARSET)) {
+         BufferedWriter writer = Files.newBufferedWriter(VALID, CHARSET)) {
       while ((line = reader.readLine()) != null) {
         if (match(line)) {
           writer.write(line + "\n");
@@ -33,12 +32,6 @@ public class Emails {
         }
       }
     } catch (IOException e) {
-      e.getMessage();
-    }
-
-    try {
-      Files.write(VALID, last.getBytes(), StandardOpenOption.APPEND);
-    } catch(IOException e) {
       e.getMessage();
     }
   }
